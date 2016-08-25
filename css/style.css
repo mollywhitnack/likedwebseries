@@ -43,13 +43,15 @@ hr {
 	padding-bottom: 100px;
 }
 
-#news, #contact {
+#news, {
   background: #f0f0f0;
 }
 
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* preloader section */
@@ -256,8 +258,9 @@ hr {
 
 /* contact section */
 #contact {
-  padding-top: 80px;
-  padding-bottom: 100px;
+  background-color: pink;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #contact .col-md-8 {
   margin-bottom: 32px;
@@ -286,13 +289,13 @@ hr {
   height: 50px;
 }
 #contact input[type="submit"]:hover {
-  background: #999;
+  background: rgba(200, 54, 54, 0.5);
   color: #ffffff;
 }
 
 /* footer section */
 footer {
-  background: url('../images/footer-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/drinking.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -355,10 +358,10 @@ footer .fa {
 
 /* copyright section */
 #copyright {
-  background: #343434;
+  background: rgba(0, 0, 0, 0.9);
   color: #ffffff;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 #copyright p {
