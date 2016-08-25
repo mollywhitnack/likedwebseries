@@ -126,9 +126,9 @@ hr {
 
 /* home section */
 #home {
-  background: url('../images/liked-arm.jpg') 50% 0 repeat-y fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background: url('../images/drinking2.jpg') 50% 0 no-repeat fixed;
+  -webkit-background-size: contain;
+  background-size: contain;
   background-position: center;
   color: #ffffff;
   display: -webkit-box;
@@ -371,7 +371,13 @@ footer .fa {
   color: #ffffff;
 }
 #copyright a:hover {
-  color: #FF0;
+  color: pink;
+  text-decoration: none;
+}
+
+
+.eprow{
+  padding-top: 50px;
 }
 
 #episodes{ padding: 36px 0px;
