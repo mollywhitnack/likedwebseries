@@ -127,7 +127,7 @@ hr {
 }
 .navbar-default .navbar-brand  {
   color: #5C5C5C;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -155,7 +155,7 @@ hr {
   text-align: center;
 }
 #home h1 {
-  font-size: 40px;
+  font-size: 65px;
   letter-spacing: 8px;
   font-style: normal;
   padding-top: 10px;
@@ -224,7 +224,7 @@ hr {
   color: #5C5C5C;
 }
 
-/* episodes section */
+/* episodes section 
 #episodes {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -244,7 +244,7 @@ hr {
 #episodes h3 {
   font-size: 18px;
   line-height: 8px;
-}
+}*/
 
 /* gallery section */
 #gallery {
@@ -307,7 +307,7 @@ hr {
 
 /* footer section */
 footer {
-  background: url('../images/bkg4.png') 50% 0 repeat-y fixed;
+  background: url('../images/eyesup.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -408,7 +408,7 @@ padding-top: 80px;
 #episodes .episodes-tab ul li{ border-right: 1px solid #DBE2E2;}
 #episodes .episodes-tab ul li a{color: #9FA9A9; padding-top: 23px; padding-bottom: 17px;font-size: 20px; font-family: 'Raleway', sans-serif; font-weight: 400;display: block; padding-right: 60px}
 #episodes .episodes-tab ul li a i{font-size: 45px; margin-right: 40px; position: relative;top: 10px;}
-#episodes .episodes-tab ul li a:hover{border-right: 10px solid #ff1ac6;padding-right: 50px;}
+#episodes .episodes-tab ul li a:hover{border-right: 10px solid pink;padding-right: 50px;}
 #episodes .episodes-tab ul li a:hover i{color: #5DCA88}
 
 .edit-tab{overflow: hidden;}
