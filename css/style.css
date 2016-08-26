@@ -6,6 +6,12 @@ http://www.tooplate.com/view/2076-zentro
 
 */
 
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/BebasNeue.otf');
+}
+
+
 body
 	{
 		background: #ffffff;
@@ -14,9 +20,15 @@ body
     position: relative;
 	}
 
+.bfont{
+  font-family: 'Bebas';
+  font-weight: 400;
+} 
+
 .heading {
-  font-size: 22px;
-  font-weight: 500;
+  font-family: 'Bebas';
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .subheading {
@@ -295,7 +307,7 @@ hr {
 
 /* footer section */
 footer {
-  background: url('../images/bkg4.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/bkg4.png') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -360,8 +372,8 @@ footer .fa {
 #copyright {
   background: rgba(0, 0, 0, 0.9);
   color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 #copyright p {
