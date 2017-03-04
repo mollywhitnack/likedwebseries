@@ -49,7 +49,6 @@ hr {
 	width: 120px;
 }
 
-
 #news, #gallery, #about, #episodes{
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -138,6 +137,7 @@ hr {
 
 /* home section */
 #home {
+
   background: url('../images/ring.jpg') 50% 0 no-repeat fixed;
   -webkit-background-size: contain;
   background-size: contain;
@@ -394,7 +394,7 @@ footer .fa {
 
 #episodes{ 
   padding: 36px 0px;
-padding-top: 70px;
+  padding-top: 70px;
 }
 #episodes .block-top{text-align: center;}
 #episodes .episodes-header{margin: 0px}
@@ -411,6 +411,19 @@ padding-top: 70px;
 #episodes .episodes-tab ul li a i{font-size: 45px; margin-right: 40px; position: relative;top: 10px;}
 #episodes .episodes-tab ul li a:hover{border-right: 10px solid pink;padding-right: 50px;}
 #episodes .episodes-tab ul li a:hover i{color: #5DCA88}
+
+@media screen and (min-width: 520px) {
+    #episodes .episodes-tab {
+        margin-right:10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #home{
+        background: url();
+        background-color: pink;
+        
+   }
+ }
 
 .edit-tab{overflow: hidden;}
 .edit-tab h1{color: #636C6C; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 700; 
