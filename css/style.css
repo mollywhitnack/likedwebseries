@@ -426,6 +426,10 @@ footer .fa {
    #award{
     margin-bottom: 50px;
    }
+
+   #mobileHide{
+    display: none;
+   }
  }
 
 .edit-tab{overflow: hidden;}
