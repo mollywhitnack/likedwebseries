@@ -423,6 +423,9 @@ footer .fa {
         background-color: pink;
         
    }
+   #award{
+    margin-bottom: 50px;
+   }
  }
 
 .edit-tab{overflow: hidden;}
