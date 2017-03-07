@@ -64,6 +64,9 @@ hr {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+#mobileShow{
+    display: none;
+  }
 
 /* preloader section */
 .preloader  {
@@ -180,6 +183,14 @@ hr {
 
 .row-centered {
     text-align:center;
+}
+
+.left{
+  margin-left: 8%;
+}
+
+.top{
+  margin-top: 5%;
 }
 .col-centered {
     display:inline-block;
@@ -420,7 +431,7 @@ footer .fa {
 @media only screen and (max-width: 500px) {
     #home{
         background: url();
-        background-color: pink;
+        background-color: #a6a3e6;
         
    }
    #award{
@@ -430,6 +441,13 @@ footer .fa {
    #mobileHide{
     display: none;
    }
+   #mobileShow{
+    display: inline;
+   }
+  #news, #gallery, #about, #episodes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
  }
 
 .edit-tab{overflow: hidden;}
