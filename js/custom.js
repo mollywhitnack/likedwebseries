@@ -1,9 +1,14 @@
 
 // preloader
 $(window).load(function(){
+  console.log( "start" );
     $('.preloader').fadeOut(1000); // set duration in brackets    
-});
 
+    $('#episodeListButton').on( "click", function() {
+    console.log( "click" );
+    });
+});
+ 
 /* HTML document is loaded. DOM is ready. 
 -------------------------------------------*/
 $(function(){
