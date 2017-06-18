@@ -4,7 +4,7 @@ $(window).load(function(){
   console.log( "start" );
     $('.preloader').fadeOut(1000); // set duration in brackets    
 
-    $('#episodeListButton').on( "click", function() {
+    $('#episodes').on( "click", function() {
     console.log( "click" );
     });
 });
@@ -23,9 +23,9 @@ $(function(){
   // ------- JQUERY PARALLAX ---- //
   function initParallax() {
     $('#home').parallax("100%", 0.1);
-    $('#gallery').parallax("100%", 0.3);
-    $('#menu').parallax("100%", 0.2);
-    $('#team').parallax("100%", 0.3);
+    $('#episodes').parallax("100%", 0.3);
+    $('#gallery').parallax("100%", 0.2);
+    $('#news').parallax("100%", 0.3);
     $('#contact').parallax("100%", 0.1);
 
   }

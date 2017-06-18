@@ -61,7 +61,7 @@ hr {
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
-  padding-top: 200px;
+  padding-top: 119px;
   padding-bottom: 200px;
 }
 #mobileShow{
@@ -158,7 +158,7 @@ hr {
   text-align: center;
 }
 #home h1 {
-  font-size: 85px;
+  font-size: 125px;
   letter-spacing: 8px;
   font-style: normal;
   padding-top: 10px;
@@ -451,11 +451,14 @@ footer .fa {
     }
 }
 @media only screen and (max-width: 500px) {
-    #home{
+  #home{
         background: url();
-        background-color: #a6a3e6;
-        
+        background-color: #c0bbee;   
    }
+   #home h1{
+      padding-top: 70px;
+   }
+
    #award{
     margin-bottom: 50px;
    }
@@ -463,6 +466,10 @@ footer .fa {
    #episodeMobile, #episodeMobile1, #episodeMobile2, #episodeMobile3, #episodeMobile4, #episodeMobile5{
     display: block;
     padding-top: 100px;
+  }
+
+  footer{
+    background:#ccdafc;
   }
 
    #episodeListButton{
