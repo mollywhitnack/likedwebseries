@@ -423,7 +423,7 @@ footer .fa {
 #episodes .episodes-tab ul li a:hover{border-right: 10px solid pink;padding-right: 50px;}
 #episodes .episodes-tab ul li a:hover i{color: #5DCA88}
 
-#episodeMobile, #episodeMobile1, #episodeMobile2, #episodeMobile3, #episodeMobile4, #episodeMobile5{
+#episodeMobile, #episodeMobile1, #episodeMobile2, #episodeMobile3, #episodeMobile4, #episodeMobile5, #episodeMobile6{
   display: none;
 }
 
@@ -463,7 +463,7 @@ footer .fa {
     margin-bottom: 50px;
    }
 
-   #episodeMobile, #episodeMobile1, #episodeMobile2, #episodeMobile3, #episodeMobile4, #episodeMobile5{
+   #episodeMobile, #episodeMobile1, #episodeMobile2, #episodeMobile3, #episodeMobile4, #episodeMobile5, #episodeMobile6{
     display: block;
     padding-top: 100px;
   }
